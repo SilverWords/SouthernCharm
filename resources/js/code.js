@@ -7,7 +7,7 @@ window.onload = function() {
       'x-apikey': '681ba99a72702c62d9b3d4cb' } 
   })
   .then(response => response.json())
-  .then(data => {letterContents.innerHTML=data[0].contents; console.log(data)})
+  .then(data => {letterContents.innerHTML=data[data.length-1].contents; console.log(data)})
   .catch(error => {console.error('Error:', error); letterContents.innerHTML="An error occured getting the love letter, but I still love you :)"});
 }
 

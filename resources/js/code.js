@@ -1,4 +1,4 @@
-window.onload = function() {
+/*window.onload = function() {
   var letterContents = document.getElementById("lovelettercontents");
   
   fetch('https://southerncharm-146b.restdb.io/rest/lovenotes', {
@@ -61,3 +61,4 @@ function findMostRecentLetter(data) {
   });
   return currentMessage;
 }
+  */
